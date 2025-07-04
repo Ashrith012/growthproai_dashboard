@@ -63,5 +63,11 @@ npm start
 
 App runs on http://localhost:3000 by default.
 
-### 🌐 API Endpoints
+## 🌐 API Endpoints
+
+| Method | Endpoint                   | Description                                                               |
+| ------ | -------------------------- | ------------------------------------------------------------------------- |
+| POST   | `/api/business-data`       | Submit Business Name & Location. Returns rating, reviews, and a headline. |
+| GET    | `/api/regenerate-headline` | Regenerates a new AI-style headline.                                      |
+
 
