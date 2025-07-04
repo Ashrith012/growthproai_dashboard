@@ -41,7 +41,7 @@ Build a mini dashboard that:
 ### 1️⃣ Clone the repo
 
 
-git clone https://github.com/YOUR_USERNAME/GrowthProAI.git
+git clone https://github.com/YOUR_USERNAME/GrowthProAI.git <br>
 cd GrowthProAI
 
 
