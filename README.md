@@ -51,12 +51,17 @@ npm install
 ## Run backend:
 node server.js
 
+Server runs on http://localhost:5000 by default.
+
 ### 3️⃣  Install Frontend
 
-cd ../frontend
+cd ../frontend <br>
 npm install
 
 ## Run frontend:
 npm start
 
+App runs on http://localhost:3000 by default.
+
+### 🌐 API Endpoints
 
