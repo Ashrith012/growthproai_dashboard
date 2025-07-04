@@ -47,7 +47,7 @@ Build a mini dashboard that:
 ---
 
 ### 2️⃣ Install Backend
-cd backend \n
+cd backend <br>
 npm install
 
 
