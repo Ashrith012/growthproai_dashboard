@@ -71,3 +71,26 @@ App runs on http://localhost:3000 by default.
 | GET    | `/api/regenerate-headline` | Regenerates a new AI-style headline.                                      |
 
 
+## 🧩 Folder Structure
+
+```plaintext
+GrowthProAI/
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── server.js
+│   └── ...
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── BusinessForm.jsx
+│   │   │   ├── BusinessCard.jsx
+│   │   │   ├── Loader.jsx
+│   │   ├── api/
+│   │   │   ├── api.js
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── ...
+│   └── ...
+└── README.md
+
