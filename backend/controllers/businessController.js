@@ -14,7 +14,7 @@ export const getBusinessData = (req, res) => {
     .replace('{location}', location);
 
   res.json({
-    rating: (Math.random() * 2 + 3).toFixed(1), // e.g., 3.0 - 5.0
+    rating: (Math.random() * 2 + 3).toFixed(1), 
     reviews: Math.floor(Math.random() * 200) + 10,
     headline: randomHeadline
   });

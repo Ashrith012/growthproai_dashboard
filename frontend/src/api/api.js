@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api';  // Your Node backend with module type
+const BASE_URL = 'https://growthproai-dashboard-1.onrender.com';
 
 export async function fetchBusinessData(name, location) {
   const res = await fetch(`${BASE_URL}/business-data`, {

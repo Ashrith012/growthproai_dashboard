@@ -27,7 +27,7 @@ export default function BusinessForm({ setBusinessData }) {
 
       const data = await res.json();
 
-      // Delay for 5 seconds to show Loader
+      
       setTimeout(() => {
         setBusinessData(data);
         setLoading(false);
