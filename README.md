@@ -47,7 +47,16 @@ cd GrowthProAI
 ### 2️⃣ Install Backend
 cd backend <br>
 npm install
+
 ## Run backend:
 node server.js
+
+### 3️⃣  Install Frontend
+
+cd ../frontend
+npm install
+
+## Run frontend:
+npm start
 
 
