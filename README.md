@@ -43,3 +43,6 @@ Build a mini dashboard that:
 ```bash
 git clone https://github.com/your-username/GrowthProAI.git
 cd GrowthProAI
+---
+
+### Install Backend
