@@ -40,10 +40,10 @@ Build a mini dashboard that:
 
 ### 1️⃣ Clone the repo
 
-bash
+```bash ```
 ---
 git clone https://github.com/your-username/GrowthProAI.git
-cd GrowthProAI
+cd GrowthProAI 
 ---
 
 ### 2️⃣ Install Backend
