@@ -1,4 +1,4 @@
-const BASE_URL = "https://growthproai-dashboard-yky1.onrender.com";
+const BASE_URL = "https://growthproai-dashboard-yky1.onrender.com/api";
 
 export async function fetchBusinessData(name, location) {
   const res = await fetch(`${BASE_URL}/business-data`, {
