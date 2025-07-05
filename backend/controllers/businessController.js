@@ -1,4 +1,3 @@
-
 const headlines = [
   "Why {name} is {location}'s Sweetest Spot in 2025",
   "Discover {name}: {location}'s Best Kept Secret",
@@ -7,30 +6,22 @@ const headlines = [
 ];
 
 export const getBusinessData = (req, res) => {
-  try {
-    const { name, location } = req.body;
+  const { name, location } = req.body;
 
-    if (!name || !location) {
-      return res.status(400).json({ error: "Name and location required" });
-    }
+  const randomHeadline = headlines[Math.floor(Math.random() * headlines.length)]
+    .replace('{name}', name)
+    .replace('{location}', location);
 
-    const randomHeadline = headlines[Math.floor(Math.random() * headlines.length)]
-      .replace('{name}', name)
-      .replace('{location}', location);
-
-    res.json({
-      name,
-      location,
-      rating: (Math.random() * 2 + 3).toFixed(1),
-      reviews: Math.floor(Math.random() * 200) + 10,
-      headline: randomHeadline,
-    });
-  } catch (err) {
-    console.error("Server error:", err);
-    res.status(500).json({ error: "Server error" });
-  }
+  res.json({
+    name,
+    location,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod neque non arcu bibendum, ut faucibus lorem interdum. Donec nec quam lacus. Sed et velit at nunc pellentesque tristique.",
+    employees: Math.floor(Math.random() * 1000) + 100,
+    rating: (Math.random() * 2 + 3).toFixed(1), 
+    reviews: Math.floor(Math.random() * 200) + 10,
+    headline: randomHeadline
+  });
 };
-
 
 export const regenerateHeadline = (req, res) => {
   const { name, location } = req.query;

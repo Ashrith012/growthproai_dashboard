@@ -1,4 +1,3 @@
-// src/components/BusinessForm.jsx
 import React, { useState } from 'react';
 import { fetchBusinessData } from '../api/api';
 import Loader from './Loader';

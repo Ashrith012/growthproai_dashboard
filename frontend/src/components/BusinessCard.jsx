@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { regenerateHeadline } from '../api/api';
-import Loader from './Loader'; // adjust path if needed
 
 
 export default function BusinessCard({ data, setBusinessData }) {
@@ -8,6 +7,7 @@ export default function BusinessCard({ data, setBusinessData }) {
 
  const handleRegenerate = async () => {
   setLoading(true);
+  console.log("Regenerating for:", data.name, data.location);
   try {
     const newHeadline = await regenerateHeadline(data.name, data.location);
     setBusinessData({ ...data, headline: newHeadline.headline });
