@@ -1,4 +1,5 @@
-const BASE_URL = "https://localhost:5000";
+const BASE_URL = 'https://growthproai-dashboard-ths0.onrender.com';
+
 export async function fetchBusinessData(name, location) {
   const res = await fetch(`${BASE_URL}/business-data`, {
     method: 'POST',
