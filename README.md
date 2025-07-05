@@ -95,3 +95,10 @@ GrowthProAI/
 │   └── ...
 └── README.md
 
+```
+## 🌐 **Deployed Links**
+
+| Part       | Link                                                                 |
+|------------|----------------------------------------------------------------------|
+| **Frontend** | [View on Vercel](https://growthproai-dashboard-ashriths-projects-8f83587b.vercel.app/)                  |
+| **Backend**  | [View on Render](https://growthproai-dashboard-lo62.onrender.com/api) |
